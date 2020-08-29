@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    #form-message{
+       width: 800px;
+        /background-color: #051436;/
+        margin: 160px 160px;
+        
+        }
+        
+    .button{
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: #09184A;
+        }
+
+        
+        
+    .input{
+        width: 60%;
+        font-size: 16px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      text-size : 100%;  
+        }
+        
+   
+</style>
+</head>
+<body background = "https://www.contactcenterworld.com/imagestemp/76201694811_shutterstock_104163062.jpg">
+<div>
+<header>
+<h1><center >SMS SPAM DETECTOR </center></h1>
+<hr color = "black">
+</header>
+</div>
+<center><form id = "form-message" action = "/login" method = "post">
+    <p><br><br><br><br><br><br><br>
+    <div style = "font-size: 25px;"> This Magic Brain will detect if the SMS is a spam or not. </div><br>
+    
+    <input class = "input" type = "input" name = "message" placeholder = "Enter message here">
+    <button class = "button" type = "submit" value = "Submit">Submit</button>
+    <br>
+    <div style = "font-size: 25px; color : #98080F;"
+    <p class = "predict" ><br><br><br><b>{{Out}}</b></br></br></p></div>
+</form>
+
+</body>
+</html>
